@@ -213,3 +213,96 @@ ul{
     text-align: center;
     overflow-wrap: break-word;
 }
+
+.segment2
+{
+    background-color: #031027;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex:initial;
+    height: 150px;
+    padding:10px;
+}
+
+.segment2-text-container
+{   
+    width: 600px;
+    text-align: justify;
+    font-weight: 400;
+  
+    font-size: 17px;
+}
+
+.segment2-quote
+{   
+    
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    flex:initial;
+    width:600px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.segment3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:140px;
+    background-color: #020b1a;
+}
+
+.note-box
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #091b3d;
+    width:600px;
+    height:100px;
+    border-radius: 2%;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.newsletter-text
+{
+    justify-content: flex-start;
+    padding:5px;
+    margin-left:40px;
+    width: 400px;
+    height:80px;
+}
+
+.newsletter-header
+{
+    font-size: 20px;
+    text-align: left;
+}
+
+.newsletter-info
+{
+    color:aliceblue;
+}
+
+.signup-button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid cadetblue;
+    border-radius: 9%;
+    margin-left: 20px;
+    width:80px;
+    height: 20px;
+}
+
+.signup-text
+{
+    color: aqua;
+}
