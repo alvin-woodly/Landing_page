@@ -306,3 +306,13 @@ ul{
 {
     color: aqua;
 }
+
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    padding:10px;
+}
